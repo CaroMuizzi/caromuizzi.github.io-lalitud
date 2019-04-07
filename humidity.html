@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="clima.html"> HOME <span class="sr-only"></span></a></li>
+                </ul>
+            
+                <!-- Dropdown list and two link buttons place on the top right -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <!--<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="sr-only">(current)</span></a></li>-->
+                        <ul class="dropdown-menu">
+                            <li><a href="temperature.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind_speed.html">Wind Speed</a></li> 
+                        </ul>
+                        </li>  
+                        <li><a href="comparison.html">Comparison</a></li>
+                        <li><a href="data.html">Data</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                   </li> 
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+  <!-- Creates the Overall Grid -->
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-8">
+                <h1 class="text-left">Humidity</h1>   
+                </article>
+                <hr>
+                <article>
+                    <img id="principal" src="https://github.com/CaroMuizzi/Latitud_vs_Longitud/blob/master/latitud_vs_humidity.png?raw=true" alt="City Latitude vs Humidity scatterplot">
+                    <p> Humidity is the measure of water vapor in the air. When the humidity is 100% then the air can't hold any more water vapor. When surface temperature of the land masses and sea warms, 
+                        it leads to more evaporation, and consequently an increase in humidity. An increase in humidity can lead to additional warming of the land masses and sea. (Based on Wikipedia). The 
+                        Scatterplot shows that there is not a representative relation between the latitude and humidity, but also we can notice that between lat [-40,-20] and [20,40] can be some cities with less humidity, than the rest.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                <h2 class="text-center">Visualizations</h2>
+                </article>
+                <hr>
+                <article>
+                    <div class="boxset">
+                        <a href="temperature.html"><img id= "Lup" src="https://github.com/CaroMuizzi/Latitud_vs_Longitud/blob/master/latitud_vs_maxtemp.png?raw=true" alt="City Latitud vs Max Temperature scatterplot">
+                        <a href="humidity.html"><img id= "Rup" src="https://github.com/CaroMuizzi/Latitud_vs_Longitud/blob/master/latitud_vs_humidity.png?raw=true" alt="City Latitude vs Humidity scatterplot">
+                        <a href="cloudiness.html"><img id= "Ldwn" src="https://github.com/CaroMuizzi/Latitud_vs_Longitud/blob/master/latitud_vs_cloudiness.png?raw=true" alt="City Latitude vs Cloudiness scatterplot">
+                        <a href="wind_speed.html"><img id= "Rdwn" src="https://github.com/CaroMuizzi/Latitud_vs_Longitud/blob/master/latitud_vs_windspeed.png?raw=true" alt="City Latitude vs Wind Speed scatterplot">
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

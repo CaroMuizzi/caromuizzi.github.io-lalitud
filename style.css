@@ -1,0 +1,123 @@
+/* CSS file for HW12_Lattitude page */
+
+.navbar-default .navbar-nav>.active>a {
+    background-color:rgb(46, 201, 167) ;
+    color: white;
+}
+
+h1 {
+    color: rgb(38, 138, 128);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgb(38, 138, 128);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(20, 180, 164);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+h6 {
+    text-align: justify;
+}
+
+
+/* Principal Photo */
+#principal {
+    float:left;
+    width: 450px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.boxset {
+    position: relative;
+    height: 300px;
+    width: 370px;
+}
+/* Left UP Photo, visualization */
+#Lup {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 180px;
+}
+
+/* Right UP Photo, visualization */
+#Rup {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 180px;
+}
+
+/* Left DOWN Photo, visualization */
+#Ldwn {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 180px;
+}
+
+/* Right DOWN Photo, visualization */
+#Rdwn {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 180px;
+}
+
+
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+#lis {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* line */
+hr { 
+    background-color: rgba(216, 212, 212, 0.982); 
+    height: 1px; 
+    border: 0; 
+}
+
+
+@media (max-width:990px) {
+
+.boxset {
+    position:relative;
+    height: 100px;
+}
+
+#Ldwn {
+    position:relative;
+    top:0px;
+    left:375px;
+ }
+
+#Rdwn{
+    position:relative;
+    top:0px;
+    left:380px;
+ }
+}
